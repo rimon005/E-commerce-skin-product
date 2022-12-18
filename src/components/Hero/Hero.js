@@ -28,12 +28,13 @@ const Hero = () => {
                 {/* blue circle */}
                 <motion.div
                     initial={{ bottom: "2rem" }}
-                    whileInView={{ bottom: "0rem" }}
+                    whileInView={{ bottom: "-1rem" }}
                     transition={transition}
                     className={css.blueCircle}></motion.div>
 
                 {/* hero image */}
                 <motion.img
+                    
                     initial={{ top: "2rem" }}
                     whileInView={{ top: "0rem" }}
                     transition={transition}
