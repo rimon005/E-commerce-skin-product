@@ -139,11 +139,13 @@
     position: absolute;
     width: 70%;
     height: 100%;
+    left: 1rem;
   }
 
   .wrapper>img{
     width: 70%;
     height: 100%;
+    left: 1rem;
   }
 
   .container{
@@ -171,16 +173,21 @@
 }
 
 @media screen and (max-width:640px) {
+  .container{
+    margin-top: 3rem;
+  }
   .blueCircle{
     top: 0;
     width: 14rem;
     height: 65%;
+    left: -1rem;
   }
 
   .wrapper>img{
     top: 3rem;
     width: 12rem;
     height: 15rem;
+    left: 0rem;
   }
   .cart2{
     transform: scale(.7);
@@ -188,4 +195,5 @@
     bottom: 0;
   }
 }
+
 

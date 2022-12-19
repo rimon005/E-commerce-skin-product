@@ -34,9 +34,8 @@ const Hero = () => {
 
                 {/* hero image */}
                 <motion.img
-                    
                     initial={{ top: "2rem" }}
-                    whileInView={{ top: "0rem" }}
+                    whileInView={{ top: "1rem" }}
                     transition={transition}
                     src={HeroImg} alt="" width={600} />
 
@@ -45,7 +44,7 @@ const Hero = () => {
                 <motion.div
                 transition={transition}
                 initial={{right:"-8%"}}
-                whileInView={{right:"-10%"}}
+                whileInView={{right:"-3%"}}
                 className={css.cart2}>
                     <RiShoppingBagFill />
 
